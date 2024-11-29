@@ -5,7 +5,7 @@ const CreateNewAppointmentPopUp = () => {
     <div className="create_appointment_popup_container">
       <div>
         <label>
-          Patient<span>*</span>
+          Patients<span>*</span>
         </label>
         <input type="text" />
         <input type="text" />
