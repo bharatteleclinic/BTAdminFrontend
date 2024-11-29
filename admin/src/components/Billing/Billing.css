@@ -1,0 +1,114 @@
+.admin_billing_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+.admin_billing_container hr{
+  border: none;
+  height: 1px;
+  background-color: #ccc; 
+}
+.admin_billing_heading h6{
+    color: #091E42;
+    font-size: 18px;
+    margin: 11px;
+}
+.admin_billing_second_div{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+/* Tabs css */
+
+.admin_billing_tabs .active{
+  color: #0052cc;
+  border-bottom: 2px solid #0052cc;
+}
+
+.admin_billing_tabs ul{
+    display: flex;
+    gap: 30px;
+}
+.admin_billing_tabs ul li{
+    list-style: none; 
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Appointment tab css */
+
+/* filter section */
+
+
+.filter-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.admin_billing_search_input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 4px;
+  width: 230px;
+}
+.admin_billing_date_input{
+  padding: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 4px;
+}
+.admin_billing_status_select{
+  padding: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 4px;
+  width: 150px;
+}
+
+.admin_billing_filter_btn {
+  background-color: #0056d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  width: 50px;
+}
+
+.admin_billing_reset_btn {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  width: 50px;
+}
+/* TABLE CSS */
+.appointment_table_div table{
+  width: 100%;
+}
+
+.admin_billing_appointments_table thead th {
+  font-size: 13px;
+  color: #505F79;
+  border: none;
+  background-color: #D9E5F7;
+}
+
+.admin_billing_appointments_table th,
+.admin_billing_appointments_table td {
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  border: none;
+}
+

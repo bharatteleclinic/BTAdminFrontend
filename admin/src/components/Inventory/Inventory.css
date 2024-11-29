@@ -1,0 +1,131 @@
+.admin_inventory_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.admin_inventory_container hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+}
+.admin_inventory_top_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.admin_inventory_top_heading h6 {
+  color: #212529;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 2px;
+}
+.admin_inventory_create_btn {
+  border: 1px solid #0052cc;
+  outline: none;
+  padding: 10px;
+  color: #0052cc;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  line-height: 22px;
+  border-radius: 4px;
+}
+.admin_inventory_create_btn:hover {
+  background-color: #0052cc;
+  color: white;
+}
+/* second dic css */
+.admin_inventory_second_div {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+}
+/* Tabs css */
+
+.admin_inventory_tabs .active {
+  color: #0052cc;
+  border-bottom: 2px solid #0052cc;
+}
+
+.admin_inventory_tabs ul {
+  display: flex;
+  gap: 30px;
+}
+.admin_inventory_tabs ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #505f79;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* last div css Tables */
+.admin_inventory_filter_section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+.admin_inventory_search_btn {
+  background-color: #0056d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  cursor: pointer;
+  width: 50px;
+}
+
+.admin_inventory_reset_btn {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  cursor: pointer;
+  width: 50px;
+}
+
+/*products Table css */
+.admin_inventory_last_div table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.admin_inventory_table thead th {
+  color: #505f79;
+  font-size: 14px;
+  font-weight: 200;
+  background-color: #d9e5f7;
+  padding: 10px;
+  text-align: center;
+}
+
+.admin_inventory_table td {
+  font-size: 13px;
+  padding: 10px 25px 10px 15px;
+  text-align: center;
+  color: #515151;
+}
+#admin_inventory_action {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  cursor: pointer;
+  color: blue;
+}
+.no_admin_emr_data {
+  text-align: center;
+  color: #888;
+  padding: 20px;
+}
