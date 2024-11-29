@@ -8,6 +8,7 @@ const CreateNewAppointmentPopUp = () => {
           Patient<span>*</span>
         </label>
         <input type="text" />
+        <input type="text" />
       </div>
 
       <div>
