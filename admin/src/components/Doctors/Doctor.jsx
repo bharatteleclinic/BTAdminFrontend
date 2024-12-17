@@ -36,15 +36,60 @@ const Doctor = () => {
 
         {/* Bottom div */}
         <div className="admin_doctor_botton_div">
+
+
           <div className="admin_doctor_card">
+            <div className="admin_doctor_card_section_with_toggle">
+              <div className="admin_doctor_profile">
+                <i class="fa-solid fa-user-large"></i>
+                <p>Dr. Kulsum Khan (BHMS)</p>
+              </div>
+
+
+              <div className="admin_doctor_card_sectionRight">
+             <input type="checkbox" id="check"/>
+             <label htmlFor="check" className="status_button"></label>
+              </div>
+
+              
+            </div>
+            <hr id="admin_doctor_hr"/>
+
             <div className="admin_doctor_card_section">
+              <div className="admin_doctor_card_section_specality">
+                <span>Speciality</span>
+                <p>General Physician</p>
+              </div>
+            </div>
+            <hr id="admin_doctor_hr"/>
+
+            <div className="admin_doctor_card_section">
+              <div className="admin_doctor_card_section_value">
+                <span>Date of Birth</span>
+                <p>1 May 1995</p>
+              </div>
+              <div className="admin_doctor_card_section_value">
+                <span>Experience</span>
+                <p>3 Years of Experience</p>
+              </div>
+            </div>
+            <hr id="admin_doctor_hr"/>
+
+            <div className="admin_doctor_card_last_div">
+              <span id="admin_edit_icon">Mode of Consultation<i class="fa-regular fa-pen-to-square"></i></span>
+              <button><i class="fa-solid fa-video"></i> Video Consultation</button>
+            </div>
+          </div>
+          {/* ********************************************* */}
+          <div className="admin_doctor_card">
+            <div className="admin_doctor_card_section_with_toggle">
               <div className="admin_doctor_profile">
                 <i class="fa-solid fa-user-large"></i>
                 <p>Dr. Kulsum Khan (BHMS)</p>
               </div>
               <div className="admin_doctor_card_sectionRight">
-                <i class="fa-regular fa-eye"></i>
-                <span>5</span>
+             <input type="checkbox" id="check"/>
+             <label htmlFor="check" className="status_button"></label>
               </div>
             </div>
             <hr id="admin_doctor_hr"/>
@@ -62,7 +107,6 @@ const Doctor = () => {
                 <span>Date of Birth</span>
                 <p>1 May 1995</p>
               </div>
-
               <div className="admin_doctor_card_section_value">
                 <span>Experience</span>
                 <p>3 Years of Experience</p>
@@ -77,16 +121,15 @@ const Doctor = () => {
           </div>
 
 
-
           <div className="admin_doctor_card">
-            <div className="admin_doctor_card_section">
+            <div className="admin_doctor_card_section_with_toggle">
               <div className="admin_doctor_profile">
                 <i class="fa-solid fa-user-large"></i>
                 <p>Dr. Kulsum Khan (BHMS)</p>
               </div>
               <div className="admin_doctor_card_sectionRight">
-                <i class="fa-regular fa-eye"></i>
-                <span>5</span>
+             <input type="checkbox" id="check"/>
+             <label htmlFor="check" className="status_button"></label>
               </div>
             </div>
             <hr id="admin_doctor_hr"/>
@@ -104,7 +147,6 @@ const Doctor = () => {
                 <span>Date of Birth</span>
                 <p>1 May 1995</p>
               </div>
-
               <div className="admin_doctor_card_section_value">
                 <span>Experience</span>
                 <p>3 Years of Experience</p>
@@ -119,16 +161,15 @@ const Doctor = () => {
           </div>
 
 
-
           <div className="admin_doctor_card">
-            <div className="admin_doctor_card_section">
+            <div className="admin_doctor_card_section_with_toggle">
               <div className="admin_doctor_profile">
                 <i class="fa-solid fa-user-large"></i>
                 <p>Dr. Kulsum Khan (BHMS)</p>
               </div>
               <div className="admin_doctor_card_sectionRight">
-                <i class="fa-regular fa-eye"></i>
-                <span>5</span>
+             <input type="checkbox" id="check"/>
+             <label htmlFor="check" className="status_button"></label>
               </div>
             </div>
             <hr id="admin_doctor_hr"/>
@@ -146,7 +187,6 @@ const Doctor = () => {
                 <span>Date of Birth</span>
                 <p>1 May 1995</p>
               </div>
-
               <div className="admin_doctor_card_section_value">
                 <span>Experience</span>
                 <p>3 Years of Experience</p>
@@ -163,14 +203,14 @@ const Doctor = () => {
 
 
           <div className="admin_doctor_card">
-            <div className="admin_doctor_card_section">
+            <div className="admin_doctor_card_section_with_toggle">
               <div className="admin_doctor_profile">
                 <i class="fa-solid fa-user-large"></i>
                 <p>Dr. Kulsum Khan (BHMS)</p>
               </div>
               <div className="admin_doctor_card_sectionRight">
-                <i class="fa-regular fa-eye"></i>
-                <span>5</span>
+             <input type="checkbox" id="check"/>
+             <label htmlFor="check" className="status_button"></label>
               </div>
             </div>
             <hr id="admin_doctor_hr"/>
@@ -188,7 +228,6 @@ const Doctor = () => {
                 <span>Date of Birth</span>
                 <p>1 May 1995</p>
               </div>
-
               <div className="admin_doctor_card_section_value">
                 <span>Experience</span>
                 <p>3 Years of Experience</p>
@@ -205,14 +244,14 @@ const Doctor = () => {
 
 
           <div className="admin_doctor_card">
-            <div className="admin_doctor_card_section">
+            <div className="admin_doctor_card_section_with_toggle">
               <div className="admin_doctor_profile">
                 <i class="fa-solid fa-user-large"></i>
                 <p>Dr. Kulsum Khan (BHMS)</p>
               </div>
               <div className="admin_doctor_card_sectionRight">
-                <i class="fa-regular fa-eye"></i>
-                <span>5</span>
+             <input type="checkbox" id="check"/>
+             <label htmlFor="check" className="status_button"></label>
               </div>
             </div>
             <hr id="admin_doctor_hr"/>
@@ -230,7 +269,6 @@ const Doctor = () => {
                 <span>Date of Birth</span>
                 <p>1 May 1995</p>
               </div>
-
               <div className="admin_doctor_card_section_value">
                 <span>Experience</span>
                 <p>3 Years of Experience</p>
@@ -246,15 +284,16 @@ const Doctor = () => {
 
 
 
+
           <div className="admin_doctor_card">
-            <div className="admin_doctor_card_section">
+            <div className="admin_doctor_card_section_with_toggle">
               <div className="admin_doctor_profile">
                 <i class="fa-solid fa-user-large"></i>
                 <p>Dr. Kulsum Khan (BHMS)</p>
               </div>
               <div className="admin_doctor_card_sectionRight">
-                <i class="fa-regular fa-eye"></i>
-                <span>5</span>
+             <input type="checkbox" id="check"/>
+             <label htmlFor="check" className="status_button"></label>
               </div>
             </div>
             <hr id="admin_doctor_hr"/>
@@ -272,7 +311,6 @@ const Doctor = () => {
                 <span>Date of Birth</span>
                 <p>1 May 1995</p>
               </div>
-
               <div className="admin_doctor_card_section_value">
                 <span>Experience</span>
                 <p>3 Years of Experience</p>
@@ -288,15 +326,17 @@ const Doctor = () => {
 
 
 
+
+
           <div className="admin_doctor_card">
-            <div className="admin_doctor_card_section">
+            <div className="admin_doctor_card_section_with_toggle">
               <div className="admin_doctor_profile">
                 <i class="fa-solid fa-user-large"></i>
                 <p>Dr. Kulsum Khan (BHMS)</p>
               </div>
               <div className="admin_doctor_card_sectionRight">
-                <i class="fa-regular fa-eye"></i>
-                <span>5</span>
+             <input type="checkbox" id="check"/>
+             <label htmlFor="check" className="status_button"></label>
               </div>
             </div>
             <hr id="admin_doctor_hr"/>
@@ -314,7 +354,6 @@ const Doctor = () => {
                 <span>Date of Birth</span>
                 <p>1 May 1995</p>
               </div>
-
               <div className="admin_doctor_card_section_value">
                 <span>Experience</span>
                 <p>3 Years of Experience</p>
@@ -327,138 +366,11 @@ const Doctor = () => {
               <button><i class="fa-solid fa-video"></i> Video Consultation</button>
             </div>
           </div>
-
-
-
-          <div className="admin_doctor_card">
-            <div className="admin_doctor_card_section">
-              <div className="admin_doctor_profile">
-                <i class="fa-solid fa-user-large"></i>
-                <p>Dr. Kulsum Khan (BHMS)</p>
-              </div>
-              <div className="admin_doctor_card_sectionRight">
-                <i class="fa-regular fa-eye"></i>
-                <span>5</span>
-              </div>
-            </div>
-            <hr id="admin_doctor_hr"/>
-
-            <div className="admin_doctor_card_section">
-              <div className="admin_doctor_card_section_specality">
-                <span>Speciality</span>
-                <p>General Physician</p>
-              </div>
-            </div>
-            <hr id="admin_doctor_hr"/>
-
-            <div className="admin_doctor_card_section">
-              <div className="admin_doctor_card_section_value">
-                <span>Date of Birth</span>
-                <p>1 May 1995</p>
-              </div>
-
-              <div className="admin_doctor_card_section_value">
-                <span>Experience</span>
-                <p>3 Years of Experience</p>
-              </div>
-            </div>
-            <hr id="admin_doctor_hr"/>
-
-            <div className="admin_doctor_card_last_div">
-              <span id="admin_edit_icon">Mode of Consultation<i class="fa-regular fa-pen-to-square"></i></span>
-              <button><i class="fa-solid fa-video"></i> Video Consultation</button>
-            </div>
-          </div>
-
-
-
-          <div className="admin_doctor_card">
-            <div className="admin_doctor_card_section">
-              <div className="admin_doctor_profile">
-                <i class="fa-solid fa-user-large"></i>
-                <p>Dr. Kulsum Khan (BHMS)</p>
-              </div>
-              <div className="admin_doctor_card_sectionRight">
-                <i class="fa-regular fa-eye"></i>
-                <span>5</span>
-              </div>
-            </div>
-            <hr id="admin_doctor_hr"/>
-
-            <div className="admin_doctor_card_section">
-              <div className="admin_doctor_card_section_specality">
-                <span>Speciality</span>
-                <p>General Physician</p>
-              </div>
-            </div>
-            <hr id="admin_doctor_hr"/>
-
-            <div className="admin_doctor_card_section">
-              <div className="admin_doctor_card_section_value">
-                <span>Date of Birth</span>
-                <p>1 May 1995</p>
-              </div>
-
-              <div className="admin_doctor_card_section_value">
-                <span>Experience</span>
-                <p>3 Years of Experience</p>
-              </div>
-            </div>
-            <hr id="admin_doctor_hr"/>
-
-            <div className="admin_doctor_card_last_div">
-              <span id="admin_edit_icon">Mode of Consultation<i class="fa-regular fa-pen-to-square"></i></span>
-              <button><i class="fa-solid fa-video"></i> Video Consultation</button>
-            </div>
-          </div>
-
-
-          <div className="admin_doctor_card">
-            <div className="admin_doctor_card_section">
-              <div className="admin_doctor_profile">
-                <i class="fa-solid fa-user-large"></i>
-                <p>Dr. Kulsum Khan (BHMS)</p>
-              </div>
-              <div className="admin_doctor_card_sectionRight">
-                <i class="fa-regular fa-eye"></i>
-                <span>5</span>
-              </div>
-            </div>
-            <hr id="admin_doctor_hr"/>
-
-            <div className="admin_doctor_card_section">
-              <div className="admin_doctor_card_section_specality">
-                <span>Speciality</span>
-                <p>General Physician</p>
-              </div>
-            </div>
-            <hr id="admin_doctor_hr"/>
-
-            <div className="admin_doctor_card_section">
-              <div className="admin_doctor_card_section_value">
-                <span>Date of Birth</span>
-                <p>1 May 1995</p>
-              </div>
-
-              <div className="admin_doctor_card_section_value">
-                <span>Experience</span>
-                <p>3 Years of Experience</p>
-              </div>
-            </div>
-            <hr id="admin_doctor_hr"/>
-
-            <div className="admin_doctor_card_last_div">
-              <span id="admin_edit_icon">Mode of Consultation<i class="fa-regular fa-pen-to-square"></i></span>
-              <button><i class="fa-solid fa-video"></i> Video Consultation</button>
-            </div>
-          </div>
-
+       
 
         
 
 
-
-      
         </div>
       </div>
     </>

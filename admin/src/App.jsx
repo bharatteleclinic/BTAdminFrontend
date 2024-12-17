@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Dashboard from "./components/Dashboard/Dashboard";
@@ -17,8 +15,9 @@ import Package from "./components/Package/Package";
 function App() {
   return (
     <>
-      <div className="app">
+      <div>
         <Sidebar />
+        <div className="mainContent">
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/patient" element={<Patient />} />
@@ -31,6 +30,7 @@ function App() {
           <Route path="/inventory" element={<Inventory />} />
           <Route path="/package" element={<Package />} />
         </Routes>
+      </div>
       </div>
     </>
   );

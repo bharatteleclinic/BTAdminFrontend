@@ -10,10 +10,9 @@ const Patient = () => {
           Patients
           <span>(8)</span>
         </div>
+      
         {/* Filters */}
-        
         <div className="filter-section">
-
           <form>
           <select className="status-select">
             <option hidden>Select Type</option>
@@ -43,10 +42,7 @@ const Patient = () => {
           }
        
       </div>
-
-
         </div>
-      <hr />
 
       <div className="admin_patient_botton_div">
         <div className="admin_patient_card">
