@@ -1,0 +1,142 @@
+.appointments-container {
+  width: 100%;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.appointment-top-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+padding: 0 5px 6px;
+border-bottom: 1px solid #f4f5f7;
+height: 35px;
+}
+.appointment-top-heading h6 {
+  color: #000000DE;
+  font-size: 20px;
+}
+.admin_appointment_create_btn{
+  border: 1px solid #0052cc;
+  outline: none;
+  padding: 10px;
+  color: #0052cc;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px ;
+  line-height: 22px ;
+  border-radius: 4px;
+}
+.admin_appointment_create_btn:hover{
+background-color: #0052cc;
+color: white;
+}
+.tabs ul{
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+.tabs ul li{
+  list-style: none; 
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+.tabs .active{
+  color: #0052cc;
+  border-bottom: 2px solid #0052cc; 
+}
+.appointment_link_list{
+  color: black;
+}
+.tabs .active{
+  color: blue;
+}
+
+.filter-section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 4px;
+  width: 250px;
+}
+
+.status-select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 4px;
+  width: 250px;
+}
+
+.appointment-filter-btn {
+  background-color: #0056d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.appointment-reset-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  width: 100px;
+}
+
+
+/* Table css */
+.appointment_table_div table {
+  width: 100%;
+}
+
+.appointments-table thead th {
+  background-color: #D9E5F7;
+  font-size: 14px ;
+  font-weight: 400;
+  color: #505f79;
+}
+
+.appointments-table th,
+.appointments-table td {
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #091e42;
+}
+
+/* Table Content CSS */
+#paymentData {
+  background-color: #f1271c1f;
+  border-radius: 60px;
+  color: #f1271c;
+  padding: 3px;
+  font-size: 13px;
+}
+#videoData {
+  background-color: rgba(187, 235, 201, 0.5);
+  border-radius: 60px;
+  color: #5fbe8c;
+  padding: 3px;
+  font-size: 13px;
+}
+#eyeIcon {
+  color: blue;
+  cursor: pointer;
+}
